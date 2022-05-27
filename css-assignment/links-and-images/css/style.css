@@ -1,0 +1,84 @@
+/* LINKS AND IMAGES PAGE */
+
+.links {
+  background-color: #7aa385;
+  font-family: "Macondo", cursive;
+}
+
+img {
+  margin-left: 35%;
+}
+.buttons {
+  margin-left: 36%;
+}
+button {
+  height: 50px;
+  width: 200px;
+  background-color: #44a19b;
+  border: 2px solid #6ed647;
+}
+
+button a {
+  text-decoration: none;
+  font-family: "Macondo", cursive;
+  font-size: 30px;
+  color: #6ed647;
+}
+button:hover {
+  background-color: #6ed647;
+  border: 2px solid #021b51;
+}
+button a:hover {
+  color: #021b51;
+}
+.images {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-right: 14em;
+  gap: 20px;
+}
+/* .img-light {
+  display: flex;
+  flex-direction: column;
+} */
+.light {
+  width: 300px;
+  height: 200px;
+  border-radius: 10%;
+}
+
+/* ABOUT PAGE */
+.about {
+  background-color: purple;
+  font-family: "Smooch", cursive;
+}
+.h1-about {
+  color: pink;
+  text-align: center;
+  border: 2px solid pink;
+  width: 400px;
+  margin-left: 36%;
+  border-radius: 20px;
+  font-size: 70px;
+}
+.btn-about {
+  margin-left: 43%;
+  border: 2px solid pink;
+  color: purple;
+  background-color: #3fa7db;
+  border-radius: 50%;
+}
+.btn-about a {
+  font-family: "Smooch", cursive;
+  color: pink;
+  font-size: 30px;
+}
+.btn-about:hover {
+  color: purple;
+  background-color: pink;
+  font-weight: 600;
+  height: 60px;
+  width: 200px;
+}

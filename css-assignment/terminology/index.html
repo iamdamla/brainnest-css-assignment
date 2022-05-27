@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Terminology & Definitions</title>
+  </head>
+  <body>
+    <ol>
+      <li>
+        What are the main differences between external, internal, and inline
+        CSS?
+        <p>
+          <strong>External CSS:</strong>This is additional file that we create
+          our styles. File name can be anything; however, it has to have '.css'
+          extention at the end of the file. It has to be linked with the HTML
+          file inside of the head section.
+        </p>
+        <p>
+          <strong>Internal CSS:</strong>
+          is used to define a style for a single HTML page. An internal CSS is
+          defined in the head section of an HTML page, within a style element.
+        </p>
+        <p>
+          <strong>Inline CSS:</strong>may be used to apply a unique style for a
+          single element. To use inline styles, add the style attribute to the
+          relevant element.
+        </p>
+      </li>
+      <li>
+        What is the syntax for class and ID selectors?
+        <p>
+          For the class syntax it is used point '.' and for the id syntax it is
+          used hashtag sign '#'
+        </p>
+      </li>
+      <li>
+        How would you apply a single rule to two different selectors?
+        <p>
+          We can write the two selectors next to each other with a coma between
+          them like that: div, p{color: #000}
+        </p>
+      </li>
+      <li>
+        Given an element that has an id of title and a class of primary, how
+        would you use both attributes for a single rule?
+        <p>#title, .primary{}</p>
+      </li>
+      <li>
+        What does the descendant combinator do?
+        <p>
+          Combines two selectors such that elements matched by the second
+          selector are selected if they have an ancestor (parent) element
+          matching the first selector. For example if we want to target p elemnt
+          inside of a div element we can write like div p{}
+        </p>
+      </li>
+      <li>
+        Between a rule that uses one class selector and a rule that uses three
+        type selectors, which rule has the higher specificity?
+        <p>Class selector has the higher specificity.</p>
+      </li>
+      <li>
+        From inside to outside, what is the order of box-model properties?
+        <p>Content-padding-border-margin</p>
+      </li>
+      <li>
+        What does the box-sizing CSS property do?
+        <p>
+          The box-sizing property defines how the width and height of an element
+          are calculated: should they include padding and borders, or not.
+        </p>
+      </li>
+      <li>
+        What is the difference between the standard and alternative box model?
+        <p>
+          With the standart box model, the size of the border is added to the
+          width and height of the box. With the alternative box model, the size
+          of the border makes the content box smaller as it takes up some of
+          that available width and height.
+        </p>
+      </li>
+      <li>
+        Would you use margin or padding to create more space between 2 elements?
+        <p>For creating space between the two elements we can use margin.</p>
+      </li>
+      <li>
+        Would you use margin or padding to create more space between the
+        contents of an element and its border?
+        <p>
+          For creating space between the content of an element and its border we
+          can use padding.
+        </p>
+      </li>
+      <li>
+        Would you use margin or padding if you wanted two elements to overlap
+        each other?
+        <p>We should use margin for overlapping elements.</p>
+      </li>
+      <li>
+        What is the difference between a block element and an inline element?
+        <p>
+          A block-level element always starts on a new line, and the browsers
+          automatically add some space (a margin) before and after the element.
+          An inline element does not start on a new line and only takes up as
+          much width as necessary.
+        </p>
+      </li>
+      <li>
+        What is the difference between an inline element and an inline-block
+        element?
+        <p>
+          Compared to display: inline, the major difference is that inline-block
+          allows to set a width and height on the element. Also, with display:
+          inline, top and bottom margins & paddings are not respected, and with
+          display: inline-block they are.
+        </p>
+      </li>
+      <li>
+        Is an h1 block or inline?
+        <p>h1 is a block element.</p>
+      </li>
+      <li>
+        Is button block or inline?
+        <p>button is an inline level element.</p>
+      </li>
+      <li>
+        Is div block or inline?
+        <p>Div is a block-level element.</p>
+      </li>
+      <li>
+        Is span block or inline?
+        <p>Span is an inline level element.</p>
+      </li>
+      <li>
+        What’s the difference between a flex container and a flex item?
+        <p>What’s the difference between a flex container and a flex item?</p>
+      </li>
+      <li>
+        How do you create a flex item?
+        <p>We create an element inside of a div tag in the flex container.</p>
+      </li>
+      <li>
+        What are the 3 values defined in the shorthand flex property?
+        <p>Flex is a shorthand for flex-grow, flex-shrink and flex-basis.</p>
+      </li>
+      <li>
+        How do you make flex items arrange themselves vertically instead of
+        horizontally?
+        <p>We set the flex-direction: column;</p>
+      </li>
+      <li>
+        What is the difference between justify-content and align-items?
+        <p>
+          Justify-content is for horizantal aligning, align-items is for
+          vertical aligning.
+        </p>
+      </li>
+      <li>
+        How do you use flexbox to completely center a div inside a flex
+        container?
+        <p>display: flex; justify-content: center; align-items: center;</p>
+      </li>
+      <li>
+        What’s the difference between justify-content: space-between and
+        justify-content: space-around?
+        <p>
+          Space-between: First item is on the start line and the last item is on
+          the end line.
+        </p>
+        <p>
+          Space around: Items are evenly distributed in the line with equal
+          space around them.
+        </p>
+      </li>
+    </ol>
+  </body>
+</html>

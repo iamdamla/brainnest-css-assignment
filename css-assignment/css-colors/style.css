@@ -1,0 +1,39 @@
+h1 {
+  color: yellow;
+  text-align: center;
+}
+h2 {
+  color: #ecc1b7;
+  text-align: center;
+}
+h3 {
+  color: rgb(0, 255, 34);
+  text-align: center;
+}
+h4 {
+  color: hsl(194, 61%, 75%);
+  text-align: center;
+}
+
+.bg {
+  background-color: rgb(171, 128, 211);
+  width: 500px;
+  border-style: solid;
+  border-width: 4px;
+  border-top-color: yellow;
+  border-left-color: #ecc1b7;
+  border-right-color: rgb(0, 255, 34);
+  border-bottom-color: hsl(194, 61%, 75%);
+}
+button {
+  background-color: hsl(194, 61%, 75%);
+  border-radius: 3px;
+  border: 3px solid rgb(171, 128, 211);
+  margin-left: 16%;
+  margin-top: 2em;
+}
+button a {
+  color: rgb(171, 128, 211);
+  cursor: pointer;
+  text-decoration: none;
+}
